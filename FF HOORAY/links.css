@@ -1,0 +1,88 @@
+.containershit {
+  padding-top: 130px;
+  width: 1500px;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 15px;
+  width: 70vw;
+}
+
+.thumb {
+  border: solid #7f00a5;
+  border-radius: 15px;
+  transition: box-shadow 0.25s;
+
+}
+
+.thumb:hover {
+  box-shadow: 11px 17px 88px 0px #7f00a5;
+  -webkit-box-shadow: 11px 17px 88px 0px #7f00a5;
+  -moz-box-shadow: 11px 17px 88px 0px #7f00a5;
+}
+
+.title a {
+  text-decoration: none;
+  color: #A31ACB;
+  transition: text-shadow 0.30s;
+}
+
+.title a:hover {
+  text-shadow: 1px 2px 2px #c300ff;
+}
+
+.title{
+  font-weight: bold;
+  padding-left: 15px;
+
+}
+
+.top {
+  display: flex;
+  padding-bottom: 40px;
+
+}
+
+.middle {
+  display: flex;
+
+}
+
+.bottom {
+  display: grid;
+  width: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+h4 {
+  margin: 0;
+  padding-top: 5px;
+  font-weight: 500;
+}
+.bottom img{
+  height: 45px;
+  padding-top: 30px;
+  padding-right: 30px;
+  transition: transform 0.15s;
+}
+.bottom img:hover {
+  transform: scale(1.2,1.2);
+}
+.yt {
+  padding-left: 20px;
+}
+
+.mefr{
+  position: fixed;
+  top: 100px;
+  right: 30px;
+  transition: transform 0.5s;
+}
+.mefr:hover {
+  transform: scale(1.1, 1.1);
+}
+.imgpogi {
+  height: 635px;
+}
